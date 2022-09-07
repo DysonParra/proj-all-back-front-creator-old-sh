@@ -1,0 +1,7 @@
+<app-pesajes (outVerPesaje)="outVerPesaje.emit($event)"
+  (outVerPesajesQuantity)="outVerPesajesQuantity($event)" (onSearch)="onSearch($event)">
+</app-pesajes>
+
+<app-paginacion [items]="items" [numFilas]="pesajesQuantity" (changePage)="onChangePage($event)"
+  [pageSizes]="[5, 10, 20, 50, 100, 200, 500, 1000]">
+</app-paginacion>

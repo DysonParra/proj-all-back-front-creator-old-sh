@@ -1,0 +1,550 @@
+				{
+					"name": "EntidadGenerica",
+					"item": [
+						{
+							"name": "Obtener Todos los Registros",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Body existe\", function () {",
+											"    pm.response.to.be.withBody; // body tiene que exitir",
+											"    pm.response.to.be.json;     // Que body sea un JSON válido",
+											"});",
+											"",
+											"pm.test(\"No ocurrió error.\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData.error).to.be.eql(undefined);",
+											"});",
+											"",
+											"pm.test(\"Se obtuvieron enlaces.\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData._links).not.be.eql(undefined);",
+											"});",
+											"",
+											"pm.test(\"Lista está vacía ('_embedded' undefined).\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData._embedded).be.to.eql(undefined);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{protocol}}://{{host}}:{{port}}/{{api}}/{{FolderName}}",
+									"protocol": "{{protocol}}",
+									"host": [
+										"{{host}}"
+									],
+									"port": "{{port}}",
+									"path": [
+										"{{api}}",
+										"{{FolderName}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Insertar Registro",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Body existe\", function () {",
+											"    pm.response.to.be.withBody; // body tiene que exitir",
+											"    pm.response.to.be.json;     // Que body sea un JSON válido",
+											"});",
+											"",
+											"pm.test(\"No ocurrió error.\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData.error).to.be.eql(undefined);",
+											"});",
+											"",
+											"pm.test(\"Se obtuvieron enlaces.\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData._links).not.be.eql(undefined);",
+											"});",
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"insertRequestBody = ",
+											["$insertRequestBody"],
+											"pm.environment.set(\"insertRequestBody\", JSON.stringify(insertRequestBody));",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{{insertRequestBody}}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{protocol}}://{{host}}:{{port}}/{{api}}/{{FolderName}}",
+									"protocol": "{{protocol}}",
+									"host": [
+										"{{host}}"
+									],
+									"port": "{{port}}",
+									"path": [
+										"{{api}}",
+										"{{FolderName}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Obtener Registro",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Body existe\", function () {",
+											"    pm.response.to.be.withBody; // body tiene que exitir",
+											"    pm.response.to.be.json;     // Que body sea un JSON válido",
+											"});",
+											"",
+											"pm.test(\"No ocurrió error.\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData.error).to.be.eql(undefined);",
+											"});",
+											"",
+											"pm.test(\"Se obtuvieron enlaces.\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData._links).not.be.eql(undefined);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{protocol}}://{{host}}:{{port}}/{{api}}/{{FolderName}}/{{id}}",
+									"protocol": "{{protocol}}",
+									"host": [
+										"{{host}}"
+									],
+									"port": "{{port}}",
+									"path": [
+										"{{api}}",
+										"{{FolderName}}",
+										"{{id}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Modificar Registro",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Body existe\", function () {",
+											"    pm.response.to.be.withBody; // body tiene que exitir",
+											"    pm.response.to.be.json;     // Que body sea un JSON válido",
+											"});",
+											"",
+											"pm.test(\"No ocurrió error.\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData.error).to.be.eql(undefined);",
+											"});",
+											"",
+											"pm.test(\"Se obtuvieron enlaces.\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData._links).not.be.eql(undefined);",
+											"});",
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"updateRequestBody =",
+											["$updateRequestBody"],
+											"pm.environment.set(\"updateRequestBody\", JSON.stringify(updateRequestBody));",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"protocolProfileBehavior": {
+								"disabledSystemHeaders": {
+									"content-type": true
+								}
+							},
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{{updateRequestBody}}"
+								},
+								"url": {
+									"raw": "{{protocol}}://{{host}}:{{port}}/{{api}}/{{FolderName}}/{{id}}",
+									"protocol": "{{protocol}}",
+									"host": [
+										"{{host}}"
+									],
+									"port": "{{port}}",
+									"path": [
+										"{{api}}",
+										"{{FolderName}}",
+										"{{id}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Obtener Registro Requisito",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Body existe\", function () {",
+											"    pm.response.to.be.withBody; // body tiene que exitir",
+											"    pm.response.to.be.json;     // Que body sea un JSON válido",
+											"});",
+											"",
+											"pm.test(\"No ocurrió error.\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData.error).to.be.eql(undefined);",
+											"});",
+											"",
+											"pm.test(\"Se obtuvieron enlaces.\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData._links).not.be.eql(undefined);",
+											"});",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{protocol}}://{{host}}:{{port}}/{{api}}/{{FolderName}}/requisito/{{id}}",
+									"protocol": "{{protocol}}",
+									"host": [
+										"{{host}}"
+									],
+									"port": "{{port}}",
+									"path": [
+										"{{api}}",
+										"{{FolderName}}",
+										"requisito",
+										"{{id}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Buscar Registros Paginados (Resultado vacío)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Body existe\", function () {",
+											"    pm.response.to.be.withBody; // body tiene que exitir",
+											"    pm.response.to.be.json;     // Que body sea un JSON válido",
+											"});",
+											"",
+											"pm.test(\"No ocurrió error.\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData.error).to.be.eql(undefined);",
+											"});",
+											"",
+											"pm.test(\"Body es un array\", function () {",
+											"    pm.expect(pm.response.json()).to.be.an('array');",
+											"});",
+											"",
+											"pm.test(\"Búsqueda está vacía.\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData.length).not.be.eql(undefined);",
+											"    pm.expect(jsonData.length).be.to.eql(0);",
+											"});",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{protocol}}://{{host}}:{{port}}/{{api}}/{{FolderName}}/9/{{pages}}?page=0&size=1",
+									"protocol": "{{protocol}}",
+									"host": [
+										"{{host}}"
+									],
+									"port": "{{port}}",
+									"path": [
+										"{{api}}",
+										"{{FolderName}}",
+										"9",
+										"{{pages}}"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0"
+										},
+										{
+											"key": "size",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Buscar Registros Paginados",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Body existe\", function () {",
+											"    pm.response.to.be.withBody; // body tiene que exitir",
+											"    pm.response.to.be.json;     // Que body sea un JSON válido",
+											"});",
+											"",
+											"pm.test(\"No ocurrió error.\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData.error).to.be.eql(undefined);",
+											"});",
+											"",
+											"pm.test(\"Body es un array\", function () {",
+											"    pm.expect(pm.response.json()).to.be.an('array');",
+											"});",
+											"",
+											"pm.test(\"Búsqueda no está vacía.\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData.length).not.be.eql(undefined);",
+											"    pm.expect(jsonData.length).not.be.eql(0);",
+											"});",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{protocol}}://{{host}}:{{port}}/{{api}}/{{FolderName}}/0/{{pages}}?page=0&size=1",
+									"protocol": "{{protocol}}",
+									"host": [
+										"{{host}}"
+									],
+									"port": "{{port}}",
+									"path": [
+										"{{api}}",
+										"{{FolderName}}",
+										"0",
+										"{{pages}}"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0"
+										},
+										{
+											"key": "size",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Eliminar Registro",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Se obtuvo respuesta del servidor\", function () {",
+											"  pm.response.to.have.status(204);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{protocol}}://{{host}}:{{port}}/{{api}}/{{FolderName}}/{{id}}",
+									"protocol": "{{protocol}}",
+									"host": [
+										"{{host}}"
+									],
+									"port": "{{port}}",
+									"path": [
+										"{{api}}",
+										"{{FolderName}}",
+										"{{id}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Obtener Todos los Registros Paginados",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"pm.test(\"Body existe\", function () {",
+											"    pm.response.to.be.withBody; // body tiene que exitir",
+											"    pm.response.to.be.json;     // Que body sea un JSON válido",
+											"});",
+											"",
+											"pm.test(\"No ocurrió error.\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData.error).to.be.eql(undefined);",
+											"});",
+											"",
+											"pm.test(\"Body es un array\", function () {",
+											"    pm.expect(pm.response.json()).to.be.an('array');",
+											"});",
+											"",
+											"pm.test(\"Lista está vacía.\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData.length).be.to.eql(0);",
+											"});",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{protocol}}://{{host}}:{{port}}/{{api}}/{{FolderName}}/{{pages}}?page=0&size=1",
+									"protocol": "{{protocol}}",
+									"host": [
+										"{{host}}"
+									],
+									"port": "{{port}}",
+									"path": [
+										"{{api}}",
+										"{{FolderName}}",
+										"{{pages}}"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0"
+										},
+										{
+											"key": "size",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.globals.set('FolderName', 'EntidadGenerica');",
+									"pm.globals.set('id', '{{primaryKey}}');"
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				}

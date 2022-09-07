@@ -1,0 +1,6 @@
+<dx-popup [width]="1024" [height]="768" [showTitle]="true" title="Medicamento" [dragEnabled]="false"
+  [closeOnOutsideClick]="false" [(visible)]="inPopupVisible" (onHidden)="onPopupHiden()" (onShowing)="onPopupShowing()">
+  <div *dxTemplate="let data of 'content'">
+    <app-medicamento></app-medicamento>
+  </div>
+</dx-popup>

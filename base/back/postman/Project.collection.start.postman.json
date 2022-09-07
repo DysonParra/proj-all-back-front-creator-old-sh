@@ -1,0 +1,10 @@
+{
+	"info": {
+		"_postman_id": "ed0f2570-389d-48a7-8ad4-31b574448008",
+		"name": "Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Peticiones",
+			"item": [

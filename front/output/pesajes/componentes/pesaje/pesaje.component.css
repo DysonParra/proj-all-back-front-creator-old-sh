@@ -1,0 +1,4 @@
+::ng-deep .dx-datagrid-headers .dx-header-row {
+  background-color: black;
+  color: white;
+}
