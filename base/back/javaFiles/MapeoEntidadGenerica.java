@@ -27,17 +27,19 @@ public interface MapeoEntidadGenerica extends MapeoEntidadesGenerico<EntidadGene
 
     @Mapping(source = "intIdEntidadGenerica", target = "intIdEntidadGenerica")
     //TODO: deben ser el campo clave de la base de datos ( la llave )
+    @Override
     public EntidadGenericaDTO obtenerDto(EntidadGenerica entidad);
 
     @Mapping(source = "intIdEntidadGenerica", target = "intIdEntidadGenerica")
+    @Override
     public EntidadGenerica obtenerEntidad(EntidadGenericaDTO entidadDTO);
 
-    default EntidadGenerica desdeId(String intId) {
+    public default EntidadGenerica desdeId(String intId) {
         if (intId == null) {
             return null;
         }
         EntidadGenerica entidad = new EntidadGenerica();
-        entidad.setIntIdEntidadGenerica( % parseId % (intId));
+        entidad.setIntIdEntidadGenerica(%parseId%(intId));
         return entidad;
     }
 }

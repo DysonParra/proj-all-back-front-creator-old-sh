@@ -12,10 +12,9 @@
 package com.rtc.project.definicion.servicio;
 
 import com.rtc.project.definicion.servicio.dto.EntidadGenericaDTO;
+import java.util.List;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
-
-import java.util.List;
 
 /**
  * TODO: Definición de {@code ServicioEntidadGenerica}.

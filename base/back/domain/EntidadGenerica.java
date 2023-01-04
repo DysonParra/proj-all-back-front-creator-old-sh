@@ -11,9 +11,7 @@
  */
 package com.rtc.project.definicion.dominio;
 
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
+import lombok.*;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.math.BigDecimal;

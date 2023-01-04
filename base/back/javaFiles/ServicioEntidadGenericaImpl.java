@@ -17,6 +17,7 @@ import com.rtc.project.definicion.servicio.ServicioEntidadGenerica;
 import com.rtc.project.definicion.servicio.dto.EntidadGenericaDTO;
 import com.rtc.project.definicion.servicio.implementacion.excepciones.ExcepcionEntidadNoEncontrado;
 import com.rtc.project.definicion.servicio.mapeo.MapeoEntidadGenerica;
+import java.util.List;
 import org.mapstruct.factory.Mappers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,8 +25,6 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
-import java.util.List;
 
 /**
  * TODO: Definición de {@code ServicioEntidadGenericaImpl}.
