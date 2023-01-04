@@ -1,15 +1,14 @@
 /**
- * @fileoverview Servicio Medicamento, clase encargada de la comunicacion con el BackEnd
+ * @fileoverview MedicamentoService, clase encargada de la comunicacion con el BackEnd
  *
  * @version             1.0
  *
- * @author              Dyson A. Parra T. <dyson.parra@radartechnologies.com.co>
- * @copyright           sucomunicacion.com
+ * @author              Dyson Arley Parra Tilano <dysontilano@gmail.com>
+ * Copyright (C) Dyson Parra
  *
- * History
+ * @History
  * v1.0 – Se realizo la implementacion basica, basada en observadores reactivos
- * ----
- * La primera versión de MedicamentoService fue escrita por Dyson Arley Parra Tilano.
+ * La primera versión de MedicamentoService fue escrita por Dyson A. Parra T.
  */
 import { Injectable } from '@angular/core';
 import { Observable } from "rxjs";
@@ -32,7 +31,7 @@ interface IPostOptions {
  * @desc esta clase tendrá funciones para la interacción con el BackEnd
  * por ejemplo obtenerMedicamentos(), obtenerMedicamentosPaginados(), buscarMedicamentosPaginados,
  * guardarMedicamento(), obtenerMedicamentoXModalidad(), actualizarMedicamento(), eliminarMedicamento()
- * @author Dyson Arley Parra Tilano dyson.parra@radartechnologies.com.co
+ * @author Dyson Arley Parra Tilano dysontilano@gmail.com
  * @required medicamento.config.ts
  */
 @Injectable({

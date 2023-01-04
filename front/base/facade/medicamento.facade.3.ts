@@ -4,7 +4,7 @@
  * por ejemplo getMedicamentoActualizando$(), getMedicamentos(), cargarMedicamentos(), cargarMedicamentosPaginados(),
  * buscarMedicamentosPaginados(), cargarMedicamentosPaginadosHeaders(), buscarMedicamentosPaginadosHeaders()
  * agregarMedicamento(), actualizarMedicamento(), eliminarMedicamento()
- * @author Dyson Arley Parra Tilano dyson.parra@radartechnologies.com.co
+ * @author Dyson Arley Parra Tilano dysontilano@gmail.com
  * @required medicamento.service, medicamento.state, medicamento.model
  */
 @Injectable({

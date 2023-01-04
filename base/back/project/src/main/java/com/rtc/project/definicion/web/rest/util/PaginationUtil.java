@@ -37,6 +37,7 @@ public final class PaginationUtil {
      *
      * @param page
      * @param baseUrl
+     * @return
      */
     public static HttpHeaders generatePaginationHttpHeaders(Page page, String baseUrl) {
 
@@ -79,6 +80,7 @@ public final class PaginationUtil {
      * @param query
      * @param page
      * @param baseUrl
+     * @return
      */
     public static HttpHeaders generateSearchPaginationHttpHeaders(String query, Page page, String baseUrl) {
         String escapedQuery;

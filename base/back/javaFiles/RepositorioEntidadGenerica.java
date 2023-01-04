@@ -29,8 +29,21 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface RepositorioEntidadGenerica extends JpaRepository<EntidadGenerica, %PkFormat%> {
 
+    /**
+     * TODO: Definición de {@code findByIntIdEntidadGenerica}.
+     *
+     * @param id
+     * @return
+     */
     public List<EntidadGenerica> findByIntIdEntidadGenerica(%PkFormat% id);
 
+    /**
+     * TODO: Definición de {@code buscarEntidades}.
+     *
+     * @param strBusqueda
+     * @param pageable
+     * @return
+     */
     @Query("SELECT m FROM EntidadGenerica m WHERE m.intIdEntidadGenerica LIKE CONCAT('%', :strBusqueda, '%')")
     public Page<EntidadGenerica> buscarEntidades(@Param("strBusqueda") String strBusqueda, Pageable pageable);
 }

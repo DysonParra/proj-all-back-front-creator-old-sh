@@ -1,13 +1,13 @@
 /*
- * @fileoverview {ServicioImplementacionBase<T>} se encarga de realizar tareas especificas.
+ * @fileoverview {ServicioImplementacionBase} se encarga de realizar tareas especificas.
  *
  * @version             1.0
  *
  * @author              Dyson Arley Parra Tilano <dysontilano@gmail.com>
  * Copyright (C) Dyson Parra
  *
- * @History v1.0 --- La implementacion de {ServicioImplementacionBase<T>} fue realizada el 31/07/2022.
- * @Dev - La primera version de {ServicioImplementacionBase<T>} fue escrita por Dyson A. Parra T.
+ * @History v1.0 --- La implementacion de {ServicioImplementacionBase} fue realizada el 31/07/2022.
+ * @Dev - La primera version de {ServicioImplementacionBase} fue escrita por Dyson A. Parra T.
  */
 package com.rtc.project.definicion.servicio;
 
@@ -18,7 +18,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * TODO: Definición de {@code T}.
+ * TODO: Definición de {@code ServicioImplementacionBase}.
  *
  * @author Dyson Parra
  * @param <T>

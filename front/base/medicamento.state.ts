@@ -3,12 +3,11 @@
  *
  * @version             1.0
  *
- * @author              Dyson A. Parra T. <dyson.parra@radartechnologies.com.co>
- * @copyright           sucomunicacion.com
+ * @author              Dyson Arley Parra Tilano <dysontilano@gmail.com>
+ * Copyright (C) Dyson Parra
  *
- * History
+ * @History
  * v1.0 – Se realizo la implementacion basica, basada en observadores reactivos
- * ----
  * La primera versión de MedicamentoState fue escrita por Dyson A. Parra T.
  */
 import { Injectable } from "@angular/core";
@@ -18,7 +17,7 @@ import { MedicamentoViewModel } from "../modelos/medicamento.model";
  * @desc esta clase tendrá funciones para la interacción con el BackEnd
  * por ejemplo getActualizando$(), setActualizando(), getMedicamentos$(), setMedicamentos(), getMedicamento(), setMedicamento(),
  * agregarMedicamento(), actualizarMedicamento(), actualizarMedicamentoXId(), eliminarMedicamento(), getCantidadMedicamentos(), setCantidadMedicamentos()
- * @author Dyson Arley Parra Tilano dyson.parra@radartechnologies.com.co
+ * @author Dyson Arley Parra Tilano dysontilano@gmail.com
  * @required medicamento.config.ts
  */
 @Injectable({

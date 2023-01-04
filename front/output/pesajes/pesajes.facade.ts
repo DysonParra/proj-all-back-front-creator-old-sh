@@ -3,12 +3,11 @@
  *
  * @version             1.0
  *
- * @author              Dyson Arley Parra Tilano <dyson.parra@radartechnologies.com.co>
- * @copyright           sucomunicacion.com
+ * @author              Dyson Arley Parra Tilano <dysontilano@gmail.com>
+ * Copyright (C) Dyson Parra
  *
- * History
+ * @History
  * v1.0 – Se realizo la implementacion basica, basada en observadores reactivos
- * ----
  * La primera versión de Facade fue escrita por Dyson A. Parra T.
  */
 import { Injectable } from '@angular/core';
@@ -29,7 +28,7 @@ import { PesajeViewModel } from './modelos/pesaje.model';
  * por ejemplo getMedicamentoActualizando$(), getMedicamentos(), cargarMedicamentos(), cargarMedicamentosPaginados(),
  * buscarMedicamentosPaginados(), cargarMedicamentosPaginadosHeaders(), buscarMedicamentosPaginadosHeaders()
  * agregarMedicamento(), actualizarMedicamento(), eliminarMedicamento()
- * @author Dyson Arley Parra Tilano dyson.parra@radartechnologies.com.co
+ * @author Dyson Arley Parra Tilano dysontilano@gmail.com
  * @required medicamento.service, medicamento.state, medicamento.model
  */
 @Injectable({

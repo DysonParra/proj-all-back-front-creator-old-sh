@@ -61,12 +61,24 @@ public class RecursoEntidadGenerica {
     private final ServicioEntidadGenerica servicioEntidad;
     private final EnsambladorRecursoEntidadGenerica ensambladorRecursoEntidad;
 
+    /**
+     * TODO: Definición de {@code RecursoEntidadGenerica}.
+     *
+     * @param servicioEntidad
+     * @param ensambladorRecursoEntidad
+     */
     public RecursoEntidadGenerica(ServicioEntidadGenerica servicioEntidad,
                               EnsambladorRecursoEntidadGenerica ensambladorRecursoEntidad) {
         this.servicioEntidad = servicioEntidad;
         this.ensambladorRecursoEntidad = ensambladorRecursoEntidad;
     }
 
+    /**
+     * TODO: Definición de {@code obtenerEntidades}.
+     *
+     * @param pageable
+     * @return
+     */
     @ApiOperation(value = "Lista las [Entidades] existentes paginadas", response = Iterable.class)
     @ApiResponses(value = {
         @ApiResponse(code = 200, message = "Lista recuperada exitosamente"),
@@ -87,6 +99,13 @@ public class RecursoEntidadGenerica {
         return new ResponseEntity<>(page.getContent(), headers, HttpStatus.OK);
     }
 
+    /**
+     * TODO: Definición de {@code obtenerEntidades}.
+     *
+     * @param expresion
+     * @param pageable
+     * @return
+     */
     @ApiOperation(value = "Lista las [Entidades] existentes paginadas", response = Iterable.class)
     @ApiResponses(value = {
         @ApiResponse(code = 200, message = "Lista recuperada exitosamente"),
@@ -107,6 +126,11 @@ public class RecursoEntidadGenerica {
         return new ResponseEntity<>(page.getContent(), headers, HttpStatus.OK);
     }
 
+    /**
+     * TODO: Definición de {@code obtenerEntidades}.
+     *
+     * @return
+     */
     @ApiOperation(value = "Lista las [Entidades] existentes", response = Iterable.class)
     @ApiResponses(value = {
         @ApiResponse(code = 200, message = "Lista recuperada exitosamente"),
@@ -132,6 +156,12 @@ public class RecursoEntidadGenerica {
         return null;
     }
 
+    /**
+     * TODO: Definición de {@code obtenerEntidades}.
+     *
+     * @param id
+     * @return
+     */
     @ApiOperation(value = "Lista la [Entidad] solicitada", response = Iterable.class)
     @ApiResponses(value = {
         @ApiResponse(code = 200, message = "Lista recuperada exitosamente"),
@@ -157,6 +187,12 @@ public class RecursoEntidadGenerica {
         return null;
     }
 
+    /**
+     * TODO: Definición de {@code buscarEntidad}.
+     *
+     * @param id
+     * @return
+     */
     @ApiOperation(value = "Lista la [Entidad] solicitada", response = Iterable.class)
     @ApiResponses(value = {
         @ApiResponse(code = 200, message = "Lista recuperada exitosamente"),
@@ -180,6 +216,12 @@ public class RecursoEntidadGenerica {
         }
     }
 
+    /**
+     * TODO: Definición de {@code guardarEntidad}.
+     *
+     * @param entidadDTO
+     * @return
+     */
     @ApiOperation(value = "Guarda la [Entidad] solicitada", response = Iterable.class)
     @ApiResponses(value = {
         @ApiResponse(code = 200, message = "Lista recuperada exitosamente"),
@@ -204,6 +246,13 @@ public class RecursoEntidadGenerica {
         }
     }
 
+    /**
+     * TODO: Definición de {@code actualizarEntidad}.
+     *
+     * @param entidadDTO
+     * @param id
+     * @return
+     */
     @ApiOperation(value = "Actualiza la [Entidad] solicitada", response = Iterable.class)
     @ApiResponses(value = {
         @ApiResponse(code = 200, message = "Lista recuperada exitosamente"),
@@ -216,6 +265,12 @@ public class RecursoEntidadGenerica {
         return guardarEntidad(entidadDTO);
     }
 
+    /**
+     * TODO: Definición de {@code eliminarEntidad}.
+     *
+     * @param id
+     * @return
+     */
     @ApiOperation(value = "Elimina la [Entidad] solicitada", response = Iterable.class)
     @ApiResponses(value = {
         @ApiResponse(code = 200, message = "Lista recuperada exitosamente"),

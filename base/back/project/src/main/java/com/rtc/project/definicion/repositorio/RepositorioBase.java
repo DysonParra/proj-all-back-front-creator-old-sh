@@ -1,13 +1,13 @@
 /*
- * @fileoverview {RepositorioBase<T>} se encarga de realizar tareas especificas.
+ * @fileoverview {RepositorioBase} se encarga de realizar tareas especificas.
  *
  * @version             1.0
  *
  * @author              Dyson Arley Parra Tilano <dysontilano@gmail.com>
  * Copyright (C) Dyson Parra
  *
- * @History v1.0 --- La implementacion de {RepositorioBase<T>} fue realizada el 31/07/2022.
- * @Dev - La primera version de {RepositorioBase<T>} fue escrita por Dyson A. Parra T.
+ * @History v1.0 --- La implementacion de {RepositorioBase} fue realizada el 31/07/2022.
+ * @Dev - La primera version de {RepositorioBase} fue escrita por Dyson A. Parra T.
  */
 package com.rtc.project.definicion.repositorio;
 
@@ -21,7 +21,7 @@ import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 
 /**
- * TODO: Definición de {@code EntityManager}.
+ * TODO: Definición de {@code RepositorioBase}.
  *
  * @author Dyson Parra
  * @param <T>
@@ -35,6 +35,7 @@ public class RepositorioBase<T> implements RepositorioGenerico<T> {
     /**
      * TODO: Definición de {@code getEntityManager}.
      *
+     * @return
      */
     public EntityManager getEntityManager() {
         return entityManager;

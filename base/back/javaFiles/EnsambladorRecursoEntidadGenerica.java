@@ -30,6 +30,8 @@ public class EnsambladorRecursoEntidadGenerica implements RepresentationModelAss
     /**
      * TODO: Definición de {@code toModel}.
      *
+     * @param entidadDTO
+     * @return
      */
     @Override
     public EntityModel<EntidadGenericaDTO> toModel(EntidadGenericaDTO entidadDTO) {

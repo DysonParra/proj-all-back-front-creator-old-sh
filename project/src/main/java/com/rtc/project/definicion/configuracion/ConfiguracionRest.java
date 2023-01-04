@@ -29,6 +29,7 @@ public class ConfiguracionRest {
     /**
      * TODO: Definición de {@code corsFilter}.
      *
+     * @return
      */
     @Bean
     public CorsFilter corsFilter() {
