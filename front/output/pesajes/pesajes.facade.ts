@@ -1,14 +1,16 @@
-/**
- * @fileoverview Fachada, clase encargada de la comunicacion con el BackEnd y la gestion de estados.
+/*
+ * @fileoverview    {PesajesFacade} se encarga de la comunicacion con el BackEnd y la gestion de estados.
  *
- * @version             1.0
+ * @version         2.0
  *
- * @author              Dyson Arley Parra Tilano <dysontilano@gmail.com>
- * Copyright (C) Dyson Parra
+ * @author          Dyson Arley Parra Tilano <dysontilano@gmail.com>
  *
- * @History
- * v1.0 – Se realizo la implementacion basica, basada en observadores reactivos
- * La primera versión de Facade fue escrita por Dyson A. Parra T.
+ * @copyright       Dyson Parra
+ * @see             github.com/DysonParra
+ *
+ * History
+ * @version 1.0     Implementación realizada, basada en observadores reactivos.
+ * @version 2.0     Documentación agregada.
  */
 import { Injectable } from '@angular/core';
 import { Observable, Subscription } from 'rxjs';

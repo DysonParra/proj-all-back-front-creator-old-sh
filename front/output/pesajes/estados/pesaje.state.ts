@@ -1,14 +1,16 @@
-/**
- * @fileoverview PesajeState, clase encargada de la de estados en los datos obtenidos desde el BackEnd
+/*
+ * @fileoverview    {PesajeState} se encarga del manejo de estados en los datos obtenidos desde el BackEnd.
  *
- * @version             1.0
+ * @version         2.0
  *
- * @author              Dyson Arley Parra Tilano <dysontilano@gmail.com>
- * Copyright (C) Dyson Parra
+ * @author          Dyson Arley Parra Tilano <dysontilano@gmail.com>
  *
- * @History
- * v1.0 – Se realizo la implementacion basica, basada en observadores reactivos
- * La primera versión de PesajeState fue escrita por Dyson A. Parra T.
+ * @copyright       Dyson Parra
+ * @see             github.com/DysonParra
+ *
+ * History
+ * @version 1.0     Implementación realizada, basada en observadores reactivos.
+ * @version 2.0     Documentación agregada.
  */
 import { Injectable } from "@angular/core";
 import { BehaviorSubject } from "rxjs";
