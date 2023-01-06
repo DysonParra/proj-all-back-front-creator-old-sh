@@ -17,8 +17,9 @@ package com.rtc.project.definicion.repositorio;
 /**
  * TODO: Definición de {@code RepositorioGenerico}.
  *
- * @author Dyson Parra
  * @param <T>
+ *
+ * @author Dyson Parra
  * @since 1.8
  */
 public interface RepositorioGenerico<T> {

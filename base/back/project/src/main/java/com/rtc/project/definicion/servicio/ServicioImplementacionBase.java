@@ -23,8 +23,9 @@ import org.slf4j.LoggerFactory;
 /**
  * TODO: Definición de {@code ServicioImplementacionBase}.
  *
- * @author Dyson Parra
  * @param <T>
+ *
+ * @author Dyson Parra
  * @since 1.8
  */
 public class ServicioImplementacionBase<T> implements ServicioGenerico<T> {

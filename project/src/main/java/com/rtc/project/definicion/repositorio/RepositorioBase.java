@@ -26,8 +26,9 @@ import javax.persistence.criteria.Root;
 /**
  * TODO: Definición de {@code RepositorioBase}.
  *
- * @author Dyson Parra
  * @param <T>
+ *
+ * @author Dyson Parra
  * @since 1.8
  */
 public class RepositorioBase<T> implements RepositorioGenerico<T> {
