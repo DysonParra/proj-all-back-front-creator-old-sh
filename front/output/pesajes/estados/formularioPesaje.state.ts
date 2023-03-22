@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {FormularioPesajeState} se encarga del manejo de estados en los datos obtenidos desde el BackEnd.
+ * @fileoverview    {FormularioPesajeState}
  *
  * @version         2.0
  *

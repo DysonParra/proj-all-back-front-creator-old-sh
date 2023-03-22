@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {EntidadGenericaDTO} se encarga de realizar tareas específicas.
+ * @fileoverview    {EntidadGenericaDTO}
  *
  * @version         2.0
  *

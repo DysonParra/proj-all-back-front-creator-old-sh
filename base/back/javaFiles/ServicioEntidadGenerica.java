@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {ServicioEntidadGenerica} se encarga de realizar tareas específicas.
+ * @fileoverview    {ServicioEntidadGenerica}
  *
  * @version         2.0
  *

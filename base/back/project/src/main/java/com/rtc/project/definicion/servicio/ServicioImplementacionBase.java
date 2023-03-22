@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {ServicioImplementacionBase} se encarga de realizar tareas específicas.
+ * @fileoverview    {ServicioImplementacionBase}
  *
  * @version         2.0
  *

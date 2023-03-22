@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {MenuDTO} se encarga de realizar tareas específicas.
+ * @fileoverview    {MenuDTO}
  *
  * @version         2.0
  *

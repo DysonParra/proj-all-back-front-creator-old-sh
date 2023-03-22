@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {MedicamentoService} se encarga de la comunicacion con el BackEnd.
+ * @fileoverview    {MedicamentoService}
  *
  * @version         2.0
  *

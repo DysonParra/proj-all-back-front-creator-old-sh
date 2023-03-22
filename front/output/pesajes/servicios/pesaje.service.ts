@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {PesajeService} se encarga de la comunicacion con el BackEnd.
+ * @fileoverview    {PesajeService}
  *
  * @version         2.0
  *

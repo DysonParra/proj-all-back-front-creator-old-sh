@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {BadgeDTO} se encarga de realizar tareas específicas.
+ * @fileoverview    {BadgeDTO}
  *
  * @version         2.0
  *

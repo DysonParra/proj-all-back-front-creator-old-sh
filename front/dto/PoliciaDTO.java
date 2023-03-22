@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {PoliciaDTO} se encarga de realizar tareas específicas.
+ * @fileoverview    {PoliciaDTO}
  *
  * @version         2.0
  *

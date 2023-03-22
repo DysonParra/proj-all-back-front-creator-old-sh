@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {FileName} se encarga de la comunicacion con el BackEnd y la gestion de estados.
+ * @fileoverview    {FileName}
  *
  * @version         2.0
  *

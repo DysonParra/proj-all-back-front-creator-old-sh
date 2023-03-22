@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {TayudoFacade} se encarga de la comunicacion con el BackEnd y la gestion de estados.
+ * @fileoverview    {TayudoFacade}
  *
  * @version         2.0
  *

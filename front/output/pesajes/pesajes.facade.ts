@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {PesajesFacade} se encarga de la comunicacion con el BackEnd y la gestion de estados.
+ * @fileoverview    {PesajesFacade}
  *
  * @version         2.0
  *

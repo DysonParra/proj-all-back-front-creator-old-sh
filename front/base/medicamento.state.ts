@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {MedicamentoState} se encarga del manejo de estados en los datos obtenidos desde el BackEnd.
+ * @fileoverview    {MedicamentoState}
  *
  * @version         2.0
  *

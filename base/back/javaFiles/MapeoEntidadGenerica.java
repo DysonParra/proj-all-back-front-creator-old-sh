@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {MapeoEntidadGenerica} se encarga de realizar tareas específicas.
+ * @fileoverview    {MapeoEntidadGenerica}
  *
  * @version         2.0
  *
