@@ -26,7 +26,7 @@ import org.slf4j.LoggerFactory;
  * @param <T>
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public class ServicioImplementacionBase<T> implements ServicioGenerico<T> {
 

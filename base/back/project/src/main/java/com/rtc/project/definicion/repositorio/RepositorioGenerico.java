@@ -20,7 +20,7 @@ package com.rtc.project.definicion.repositorio;
  * @param <T>
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public interface RepositorioGenerico<T> {
 

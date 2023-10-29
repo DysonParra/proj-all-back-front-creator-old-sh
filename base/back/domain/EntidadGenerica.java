@@ -24,7 +24,7 @@ import java.util.Date;
  * TODO: Definición de {@code EntidadGenerica}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 @Entity
 //@Table(name = "EntidadGenerica", schema = "unknown", catalog = "unknown")
