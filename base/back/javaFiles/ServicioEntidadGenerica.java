@@ -20,7 +20,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
 /**
- * TODO: Definición de {@code ServicioEntidadGenerica}.
+ * TODO: Description of {@code ServicioEntidadGenerica}.
  *
  * @author Dyson Parra
  * @since 11
@@ -28,7 +28,7 @@ import org.springframework.data.domain.Pageable;
 public interface ServicioEntidadGenerica extends ServicioGenerico<EntidadGenericaDTO> {
 
     /**
-     * TODO: Definición de {@code obtenerEntidades}.
+     * TODO: Description of {@code obtenerEntidades}.
      *
      * @param id
      * @return
@@ -37,7 +37,7 @@ public interface ServicioEntidadGenerica extends ServicioGenerico<EntidadGeneric
     public List<EntidadGenericaDTO> obtenerEntidades(String id) throws Exception;
 
     /**
-     * TODO: Definición de {@code obtenerEntidades}.
+     * TODO: Description of {@code obtenerEntidades}.
      *
      * @param pageable
      * @return
@@ -46,7 +46,7 @@ public interface ServicioEntidadGenerica extends ServicioGenerico<EntidadGeneric
     public Page<EntidadGenericaDTO> obtenerEntidades(Pageable pageable) throws Exception;
 
     /**
-     * TODO: Definición de {@code query}.
+     * TODO: Description of {@code query}.
      *
      * @param query
      * @param pageable

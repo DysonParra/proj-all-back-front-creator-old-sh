@@ -20,7 +20,7 @@ import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
 /**
- * TODO: Definición de {@code MapeoEntidadGenerica}.
+ * TODO: Description of {@code MapeoEntidadGenerica}.
  *
  * @author Dyson Parra
  * @since 11
@@ -29,7 +29,7 @@ import org.mapstruct.Mapping;
 public interface MapeoEntidadGenerica extends MapeoEntidadesGenerico<EntidadGenericaDTO, EntidadGenerica> {
 
     /**
-     * TODO: Definición de {@code obtenerDto}.
+     * TODO: Description of {@code obtenerDto}.
      *
      * @param entidad
      * @return
@@ -40,7 +40,7 @@ public interface MapeoEntidadGenerica extends MapeoEntidadesGenerico<EntidadGene
     public EntidadGenericaDTO obtenerDto(EntidadGenerica entidad);
 
     /**
-     * TODO: Definición de {@code obtenerEntidad}.
+     * TODO: Description of {@code obtenerEntidad}.
      *
      * @param entidadDTO
      * @return
@@ -50,7 +50,7 @@ public interface MapeoEntidadGenerica extends MapeoEntidadesGenerico<EntidadGene
     public EntidadGenerica obtenerEntidad(EntidadGenericaDTO entidadDTO);
 
     /**
-     * TODO: Definición de {@code desdeId}.
+     * TODO: Description of {@code desdeId}.
      *
      * @param intId
      * @return

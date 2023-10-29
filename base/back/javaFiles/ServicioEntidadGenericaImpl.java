@@ -30,7 +30,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
- * TODO: Definición de {@code ServicioEntidadGenericaImpl}.
+ * TODO: Description of {@code ServicioEntidadGenericaImpl}.
  *
  * @author Dyson Parra
  * @since 11
@@ -46,7 +46,7 @@ public class ServicioEntidadGenericaImpl implements ServicioEntidadGenerica {
     private final MapeoEntidadGenerica mapeoEntidad = Mappers.getMapper(MapeoEntidadGenerica.class);
 
     /**
-     * TODO: Definición de {@code ServicioEntidadGenericaImpl}.
+     * TODO: Description of {@code ServicioEntidadGenericaImpl}.
      *
      * @param repositorioEntidad
      */
@@ -55,7 +55,7 @@ public class ServicioEntidadGenericaImpl implements ServicioEntidadGenerica {
     }
 
     /**
-     * TODO: Definición de {@code guardarActualizar}.
+     * TODO: Description of {@code guardarActualizar}.
      *
      * @param entidadDTO
      * @throws java.lang.Exception
@@ -74,7 +74,7 @@ public class ServicioEntidadGenericaImpl implements ServicioEntidadGenerica {
     }
 
     /**
-     * TODO: Definición de {@code obtenerEntidades}.
+     * TODO: Description of {@code obtenerEntidades}.
      *
      * @return
      * @throws java.lang.Exception
@@ -86,7 +86,7 @@ public class ServicioEntidadGenericaImpl implements ServicioEntidadGenerica {
     }
 
     /**
-     * TODO: Definición de {@code buscarEntidad}.
+     * TODO: Description of {@code buscarEntidad}.
      *
      * @param id
      * @throws java.lang.Exception
@@ -100,7 +100,7 @@ public class ServicioEntidadGenericaImpl implements ServicioEntidadGenerica {
     }
 
     /**
-     * TODO: Definición de {@code obtenerEntidades}.
+     * TODO: Description of {@code obtenerEntidades}.
      *
      * @param strId
      * @return
@@ -113,7 +113,7 @@ public class ServicioEntidadGenericaImpl implements ServicioEntidadGenerica {
     }
 
     /**
-     * TODO: Definición de {@code obtenerEntidades}.
+     * TODO: Description of {@code obtenerEntidades}.
      *
      * @param pageable
      * @return
@@ -126,7 +126,7 @@ public class ServicioEntidadGenericaImpl implements ServicioEntidadGenerica {
     }
 
     /**
-     * TODO: Definición de {@code eliminarEntidad}.
+     * TODO: Description of {@code eliminarEntidad}.
      *
      * @param id
      * @throws java.lang.Exception
@@ -138,7 +138,7 @@ public class ServicioEntidadGenericaImpl implements ServicioEntidadGenerica {
     }
 
     /**
-     * TODO: Definición de {@code query}.
+     * TODO: Description of {@code query}.
      *
      * @param query
      * @param pageable

@@ -21,7 +21,7 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 /**
- * TODO: Definición de {@code EntidadGenerica}.
+ * TODO: Description of {@code EntidadGenerica}.
  *
  * @author Dyson Parra
  * @since 11

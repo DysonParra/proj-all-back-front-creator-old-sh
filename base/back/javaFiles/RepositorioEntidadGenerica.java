@@ -24,7 +24,7 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 /**
- * TODO: Definición de {@code RepositorioEntidadGenerica}.
+ * TODO: Description of {@code RepositorioEntidadGenerica}.
  *
  * @author Dyson Parra
  * @since 11
@@ -33,7 +33,7 @@ import org.springframework.stereotype.Repository;
 public interface RepositorioEntidadGenerica extends JpaRepository<EntidadGenerica, %PkFormat%> {
 
     /**
-     * TODO: Definición de {@code findByIntIdEntidadGenerica}.
+     * TODO: Description of {@code findByIntIdEntidadGenerica}.
      *
      * @param id
      * @return
@@ -41,7 +41,7 @@ public interface RepositorioEntidadGenerica extends JpaRepository<EntidadGeneric
     public List<EntidadGenerica> findByIntIdEntidadGenerica(%PkFormat% id);
 
     /**
-     * TODO: Definición de {@code buscarEntidades}.
+     * TODO: Description of {@code buscarEntidades}.
      *
      * @param strBusqueda
      * @param pageable

@@ -24,7 +24,7 @@ import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 
 /**
- * TODO: Definición de {@code RepositorioBase}.
+ * TODO: Description of {@code RepositorioBase}.
  *
  * @param <T>
  *
@@ -37,7 +37,7 @@ public class RepositorioBase<T> implements RepositorioGenerico<T> {
     private Class<T> type;
 
     /**
-     * TODO: Definición de {@code getEntityManager}.
+     * TODO: Description of {@code getEntityManager}.
      *
      * @return
      */
@@ -46,7 +46,7 @@ public class RepositorioBase<T> implements RepositorioGenerico<T> {
     }
 
     /**
-     * TODO: Definición de {@code setEntityManager}.
+     * TODO: Description of {@code setEntityManager}.
      *
      * @param entityManager
      */
@@ -56,7 +56,7 @@ public class RepositorioBase<T> implements RepositorioGenerico<T> {
     }
 
     /**
-     * TODO: Definición de {@code RepositorioBase}.
+     * TODO: Description of {@code RepositorioBase}.
      *
      */
     public RepositorioBase() {
@@ -66,7 +66,7 @@ public class RepositorioBase<T> implements RepositorioGenerico<T> {
     }
 
     /**
-     * TODO: Definición de {@code guardarDatos}.
+     * TODO: Description of {@code guardarDatos}.
      *
      * @param t
      * @return
@@ -78,7 +78,7 @@ public class RepositorioBase<T> implements RepositorioGenerico<T> {
     }
 
     /**
-     * TODO: Definición de {@code eliminarDatos}.
+     * TODO: Description of {@code eliminarDatos}.
      *
      * @param objeto
      */
@@ -88,7 +88,7 @@ public class RepositorioBase<T> implements RepositorioGenerico<T> {
     }
 
     /**
-     * TODO: Definición de {@code obtenerDatos}.
+     * TODO: Description of {@code obtenerDatos}.
      *
      * @param id
      * @return
@@ -99,7 +99,7 @@ public class RepositorioBase<T> implements RepositorioGenerico<T> {
     }
 
     /**
-     * TODO: Definición de {@code actualizarCambios}.
+     * TODO: Description of {@code actualizarCambios}.
      *
      * @param t
      * @return
@@ -110,7 +110,7 @@ public class RepositorioBase<T> implements RepositorioGenerico<T> {
     }
 
     /**
-     * TODO: Definición de {@code obtenerTodos}.
+     * TODO: Description of {@code obtenerTodos}.
      *
      * @return
      */

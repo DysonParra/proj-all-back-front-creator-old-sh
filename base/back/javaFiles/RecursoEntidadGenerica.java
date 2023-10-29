@@ -50,7 +50,7 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
 /**
- * TODO: Definición de {@code RecursoEntidadGenerica}.
+ * TODO: Description of {@code RecursoEntidadGenerica}.
  *
  * @author Dyson Parra
  * @since 11
@@ -65,7 +65,7 @@ public class RecursoEntidadGenerica {
     private final EnsambladorRecursoEntidadGenerica ensambladorRecursoEntidad;
 
     /**
-     * TODO: Definición de {@code RecursoEntidadGenerica}.
+     * TODO: Description of {@code RecursoEntidadGenerica}.
      *
      * @param servicioEntidad
      * @param ensambladorRecursoEntidad
@@ -77,7 +77,7 @@ public class RecursoEntidadGenerica {
     }
 
     /**
-     * TODO: Definición de {@code obtenerEntidades}.
+     * TODO: Description of {@code obtenerEntidades}.
      *
      * @param pageable
      * @return
@@ -103,7 +103,7 @@ public class RecursoEntidadGenerica {
     }
 
     /**
-     * TODO: Definición de {@code obtenerEntidades}.
+     * TODO: Description of {@code obtenerEntidades}.
      *
      * @param expresion
      * @param pageable
@@ -130,7 +130,7 @@ public class RecursoEntidadGenerica {
     }
 
     /**
-     * TODO: Definición de {@code obtenerEntidades}.
+     * TODO: Description of {@code obtenerEntidades}.
      *
      * @return
      */
@@ -160,7 +160,7 @@ public class RecursoEntidadGenerica {
     }
 
     /**
-     * TODO: Definición de {@code obtenerEntidades}.
+     * TODO: Description of {@code obtenerEntidades}.
      *
      * @param id
      * @return
@@ -191,7 +191,7 @@ public class RecursoEntidadGenerica {
     }
 
     /**
-     * TODO: Definición de {@code buscarEntidad}.
+     * TODO: Description of {@code buscarEntidad}.
      *
      * @param id
      * @return
@@ -220,7 +220,7 @@ public class RecursoEntidadGenerica {
     }
 
     /**
-     * TODO: Definición de {@code guardarEntidad}.
+     * TODO: Description of {@code guardarEntidad}.
      *
      * @param entidadDTO
      * @return
@@ -250,7 +250,7 @@ public class RecursoEntidadGenerica {
     }
 
     /**
-     * TODO: Definición de {@code actualizarEntidad}.
+     * TODO: Description of {@code actualizarEntidad}.
      *
      * @param entidadDTO
      * @param id
@@ -269,7 +269,7 @@ public class RecursoEntidadGenerica {
     }
 
     /**
-     * TODO: Definición de {@code eliminarEntidad}.
+     * TODO: Description of {@code eliminarEntidad}.
      *
      * @param id
      * @return

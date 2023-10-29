@@ -21,7 +21,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * TODO: Definición de {@code ServicioImplementacionBase}.
+ * TODO: Description of {@code ServicioImplementacionBase}.
  *
  * @param <T>
  *
@@ -35,7 +35,7 @@ public class ServicioImplementacionBase<T> implements ServicioGenerico<T> {
     private final Logger log = LoggerFactory.getLogger(type);
 
     /**
-     * TODO: Definición de {@code ServicioImplementacionBase}.
+     * TODO: Description of {@code ServicioImplementacionBase}.
      *
      */
     public ServicioImplementacionBase() {
@@ -45,7 +45,7 @@ public class ServicioImplementacionBase<T> implements ServicioGenerico<T> {
     }
 
     /**
-     * TODO: Definición de {@code guardarActualizar}.
+     * TODO: Description of {@code guardarActualizar}.
      *
      * @param entidadDTO
      * @return
@@ -57,7 +57,7 @@ public class ServicioImplementacionBase<T> implements ServicioGenerico<T> {
     }
 
     /**
-     * TODO: Definición de {@code obtenerEntidades}.
+     * TODO: Description of {@code obtenerEntidades}.
      *
      * @return
      * @throws java.lang.Exception
@@ -68,7 +68,7 @@ public class ServicioImplementacionBase<T> implements ServicioGenerico<T> {
     }
 
     /**
-     * TODO: Definición de {@code buscarEntidad}.
+     * TODO: Description of {@code buscarEntidad}.
      *
      * @param id
      * @return
@@ -80,7 +80,7 @@ public class ServicioImplementacionBase<T> implements ServicioGenerico<T> {
     }
 
     /**
-     * TODO: Definición de {@code eliminarEntidad}.
+     * TODO: Description of {@code eliminarEntidad}.
      *
      * @param id
      * @throws java.lang.Exception

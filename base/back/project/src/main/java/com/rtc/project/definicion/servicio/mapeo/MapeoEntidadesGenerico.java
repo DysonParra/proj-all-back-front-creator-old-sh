@@ -17,7 +17,7 @@ package com.rtc.project.definicion.servicio.mapeo;
 import java.util.List;
 
 /**
- * FIXME: Definición de {@code MapeoEntidadesGenerico}.
+ * FIXME: Description of {@code MapeoEntidadesGenerico}.
  * Contract for a generic dto to entity mapper.
  *
  * @param <D> - DTO type parameter.
@@ -29,7 +29,7 @@ import java.util.List;
 public interface MapeoEntidadesGenerico<D, E> {
 
     /**
-     * TODO: Definición de {@code obtenerEntidad}.
+     * TODO: Description of {@code obtenerEntidad}.
      *
      * @param dto
      * @return
@@ -37,7 +37,7 @@ public interface MapeoEntidadesGenerico<D, E> {
     public E obtenerEntidad(D dto);
 
     /**
-     * TODO: Definición de {@code obtenerDto}.
+     * TODO: Description of {@code obtenerDto}.
      *
      * @param entidad
      * @return
@@ -45,7 +45,7 @@ public interface MapeoEntidadesGenerico<D, E> {
     public D obtenerDto(E entidad);
 
     /**
-     * TODO: Definición de {@code obtenerEntidad}.
+     * TODO: Description of {@code obtenerEntidad}.
      *
      * @param listaDto
      * @return
@@ -53,7 +53,7 @@ public interface MapeoEntidadesGenerico<D, E> {
     public List<E> obtenerEntidad(List<D> listaDto);
 
     /**
-     * TODO: Definición de {@code obtenerDto}.
+     * TODO: Description of {@code obtenerDto}.
      *
      * @param listaEntidades
      * @return

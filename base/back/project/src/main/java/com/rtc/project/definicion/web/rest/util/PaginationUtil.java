@@ -21,7 +21,7 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.web.util.UriComponentsBuilder;
 
 /**
- * TODO: Definición de {@code PaginationUtil}.
+ * TODO: Description of {@code PaginationUtil}.
  *
  * @author Dyson Parra
  * @since 11
@@ -29,14 +29,14 @@ import org.springframework.web.util.UriComponentsBuilder;
 public final class PaginationUtil {
 
     /**
-     * TODO: Definición de {@code PaginationUtil}.
+     * TODO: Description of {@code PaginationUtil}.
      *
      */
     private PaginationUtil() {
     }
 
     /**
-     * TODO: Definición de {@code generatePaginationHttpHeaders}.
+     * TODO: Description of {@code generatePaginationHttpHeaders}.
      *
      * @param page
      * @param baseUrl
@@ -66,7 +66,7 @@ public final class PaginationUtil {
     }
 
     /**
-     * TODO: Definición de {@code generateUri}.
+     * TODO: Description of {@code generateUri}.
      *
      * @param baseUrl
      * @param page
@@ -78,7 +78,7 @@ public final class PaginationUtil {
     }
 
     /**
-     * TODO: Definición de {@code generateSearchPaginationHttpHeaders}.
+     * TODO: Description of {@code generateSearchPaginationHttpHeaders}.
      *
      * @param query
      * @param page

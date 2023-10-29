@@ -21,7 +21,7 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 
 /**
- * TODO: Definición de {@code ConfiguracionRest}.
+ * TODO: Description of {@code ConfiguracionRest}.
  *
  * @author Dyson Parra
  * @since 11
@@ -30,7 +30,7 @@ import org.springframework.web.filter.CorsFilter;
 public class ConfiguracionRest {
 
     /**
-     * TODO: Definición de {@code corsFilter}.
+     * TODO: Description of {@code corsFilter}.
      *
      * @return
      */

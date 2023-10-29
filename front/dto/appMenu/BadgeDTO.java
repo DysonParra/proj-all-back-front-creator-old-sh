@@ -18,7 +18,7 @@ import lombok.NoArgsConstructor;
 import lombok.Data;
 
 /**
- * TODO: Definición de {@code BadgeDTO}.
+ * TODO: Description of {@code BadgeDTO}.
  *
  * @author Dyson Parra
  * @since 11

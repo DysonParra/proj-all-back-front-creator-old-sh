@@ -24,7 +24,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * TODO: Definición de {@code EntidadGenericaDTO}.
+ * TODO: Description of {@code EntidadGenericaDTO}.
  *
  * @author Dyson Parra
  * @since 11

@@ -19,7 +19,7 @@ import java.util.Date;
 import lombok.Data;
 
 /**
- * TODO: Definición de {@code PesajeDTO}.
+ * TODO: Description of {@code PesajeDTO}.
  *
  * @author Dyson Parra
  * @since 11

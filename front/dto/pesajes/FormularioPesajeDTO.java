@@ -20,7 +20,7 @@ import lombok.NoArgsConstructor;
 import java.util.Date;
 
 /**
- * TODO: Definición de {@code FormularioPesajeDTO}.
+ * TODO: Description of {@code FormularioPesajeDTO}.
  *
  * @author Dyson Parra
  * @since 11
